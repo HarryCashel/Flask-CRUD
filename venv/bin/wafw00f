@@ -1,0 +1,8 @@
+#!/root/PycharmProjects/Day 8 - HTTP Server & Flask/venv/bin/python
+
+
+from wafw00f import main
+
+
+if __name__ == '__main__':
+    main.main()

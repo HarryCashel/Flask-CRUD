@@ -1,0 +1,3 @@
+#!/root/PycharmProjects/Day 8 - HTTP Server & Flask/venv/bin/python
+from ldapdomaindump import pretty
+pretty.main()
