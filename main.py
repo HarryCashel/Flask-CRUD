@@ -1,12 +1,12 @@
-from flask import Flask, jsonify, request
+from flask import Flask
 from dotenv import load_dotenv
-from database import cursor, connection
+
 load_dotenv()
 
 
 app = Flask(__name__)
 
 
-from books import books
+from controllers.books_controller import books
 app.register_blueprint(books)
 
